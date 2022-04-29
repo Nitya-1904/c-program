@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main()
+{
+    printf(“Enter two numbers separated by a space”);
+    int a,b;
+    scanf(“%d%d”,&a,&b);
+    printf(“Enter the operation to be performed”);
+    char c;
+    scanf(“%c”,&c);
+    switch (c)
+{
+     case ‘+’:
+     printf(“%s%d\n”,"sum = ",a+b);
+     break;
+     case ‘-‘:
+     printf("%s%d\n","difference = ",a-b);
+     break;
+     case ‘*’:
+     printf("%s%d\n","product = "a*b);
+     break;
+     case '/':
+     printf(%s%0.3f\n%s%d\n","quotient = ",a/b,"remainder = ",a%b);
+     break;
+     default:
+     printf("Invalid Input");
+}
